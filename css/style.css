@@ -112,6 +112,10 @@ footer{
 	padding: 10px 0;
 }
 
+.nameC:hover{
+	cursor: pointer;	
+}
+
 @media (max-width: 410px){
 	
 	.myBtn{
