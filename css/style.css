@@ -41,21 +41,24 @@ body{
 	border: solid 1px white;
 	box-shadow: 10px 5px 5px rgba(0,0,0,0.8);
 	transition-duration: 0.4s;
-  	transition-timing-function: ease
+  	transition-timing-function: ease;
 }
 
 .myBtn:hover{
 	background-color: #266E14;
 }
 
-.jumbotron button{
-	width: 15%;
-	height: 10%;
+.jumbotron a{
+	width: auto;
+	height: 70px;
+    padding: 5px 10px;
 	position: absolute;	
 	top: 80%;
 	left: 50%;
 	transform: translate(-50%, -80%);
 	font-family: 'Amaranth', sans-serif;
+    text-decoration: none;
+    color: white;
 }
 
 [class*="col-"]{
@@ -122,8 +125,9 @@ footer{
 		font-size: 1.5em;	
 	}
 	
-	.jumbotron button{
-		width: 50%;	
+	.jumbotron a{
+		width: auto;
+        height: 40px;
 	}
 	
 	.searching button{
@@ -158,8 +162,9 @@ footer{
 		font-size: 1.5em;	
 	}
 	
-	.jumbotron button{
-		width: 50%;	
+	.jumbotron a{
+		width: auto;
+        height: 40px;
 	}
 	
 	.searching button{
@@ -185,9 +190,10 @@ footer{
 }
 
 @media (min-width: 768px) and (max-width: 1199px){
-	.jumbotron button{
-		width: 30%;
-		height: 10%;	
+	.jumbotron a{
+		width: auto;
+		height: 70px;
+        padding: 10px 20px;
     }	
 }
 
